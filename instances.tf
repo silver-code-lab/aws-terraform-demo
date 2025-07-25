@@ -1,4 +1,3 @@
-
 resource "aws_security_group" "instance_sg" {
   name        = "allow_ssh_and_app"
   description = "Allow SSH and app port"
